@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+h2 {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Form Styles */
+/* CSS code */
+.book-form {
+  width: 300px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button Styles */
+.btn-submit {
+  background-color: #1f2c31;
+  color: white;
+}
+
+.btn-submit:hover {
+  background-color: #2c3f47;
+}
+
+.view-books-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-view-books {
+  background-color: #45616b;
+  color: white;
+}
+
+.btn-view-books:hover {
+  background-color: #566b73;
+}
+
+/* Books List Styles */
+.books-list {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.books-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.book-details p {
+  margin: 5px 0;
+}
+
+.book-actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-edit,
+.btn-delete {
+  margin-top: 5px;
+}
+
+.btn-edit {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #ec971f;
+}
+
+.btn-delete {
+  background-color: #d9534f;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #c9302c;
+}
