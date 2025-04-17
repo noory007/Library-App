@@ -8,16 +8,16 @@
 
 ### 1.	Clone the Repository
 
-git clone https://github.com/noory007/Library-App.git
-cd Library-App
-npm install
+.git clone https://github.com/noory007/Library-App.git
+.cd Library-App
+.npm install
 
 ### 2.	Backend
 
--cd Backend 
--npm install
-- #### Create .env file in the Backend (I have sent you the link or credential in your direct message in slack).
--npm start 
+.cd Backend 
+.npm install
+-#### Create .env file in the Backend (I have sent you the link or credential in your direct message in slack).
+.npm start 
 
 ### 3.	Frontend
 
@@ -27,7 +27,7 @@ npm start
 
 ### 4.	Accessibility and SEO
 
-I have used semantic html <form>, <label>, <input>, <button>, and <header>, Keyboard navigation, users can tab through the form fields, submit the form, and interact with buttons without needing a mouse. Descriptive Button and Link Text. 
+I have used semantic html form, label, input, button, and header and Keyboard navigation, users can tab through the form fields, submit the form, and interact with buttons without needing a mouse. Descriptive Button and Link Text. 
 The <meta name="description" ... /> tag in your HTML head provides a concise summary of your app’s purpose. Descriptive Title; The <title>Noory Library</title> tag gives your app a clear, relevant name, which is important for both SEO and user orientation. The app is responsive. Using lighthouse, I checked the SEO and Accessibility of my App.
 
 ### 5.	Tracking
