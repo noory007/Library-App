@@ -1,8 +1,8 @@
 *Noory Library* is an application which is built in (MongoDB, Express.js, React, Node.js). You can add, edit and delete books.
 
-.*Frontend*: React, CSS
-.*Backend*: Node.js, Express.js
-.*Database*: MongoDB Atlas
+- *Frontend*: React, CSS
+- *Backend*: Node.js, Express.js
+- *Database*: MongoDB Atlas
 
 ## Instructions
 
