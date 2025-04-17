@@ -8,16 +8,16 @@
 
 ### 1.	Clone the Repository
 
-.git clone https://github.com/noory007/Library-App.git
-.cd Library-App
-.npm install
+- git clone https://github.com/noory007/Library-App.git
+- cd Library-App
+- npm install
 
 ### 2.	Backend
 
-.cd Backend 
-.npm install
+- cd Backend 
+- npm install
 -#### Create .env file in the Backend (I have sent you the link or credential in your direct message in slack).
-.npm start 
+- npm start 
 
 ### 3.	Frontend
 
