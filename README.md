@@ -36,6 +36,6 @@ The <meta name="description" ... /> tag in your HTML head provides a concise sum
 
 ### 6.	Security
 
-- For security, I moved my database to MongoDB Atlas to prevent data loss from local crashes or disconnections. I also added form validation to ensure no blank or incomplete data can be submitted to the database.
+- For security purose, firstly my database was in my local computer and I thought that it is not secure my data, then I moved my database to MongoDB Atlas to prevent data loss from local crashes or disconnections. Now my data is secure that you can access it from cloud. I also added form validation to ensure no blank or incomplete data can be submitted to the database.
 
 
