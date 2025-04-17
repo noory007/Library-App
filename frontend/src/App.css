@@ -27,8 +27,6 @@ button:hover {
   opacity: 0.8;
 }
 
-/* Form Styles */
-/* CSS code */
 .book-form {
   width: 300px;
   margin: 0 auto;
@@ -55,7 +53,6 @@ button:hover {
   border-radius: 5px;
 }
 
-/* Button Styles */
 .btn-submit {
   background-color: #1f2c31;
   color: white;
@@ -79,7 +76,6 @@ button:hover {
   background-color: #566b73;
 }
 
-/* Books List Styles */
 .books-list {
   width: 80%;
   margin: 20px auto;

@@ -4,7 +4,6 @@ const ConsentBanner = () => {
   const [consentGiven, setConsentGiven] = useState(false);
 
   useEffect(() => {
-    // Check if consent was already given
     const savedConsent = localStorage.getItem("google_analytics_consent");
     if (savedConsent === "true") {
       setConsentGiven(true);
@@ -24,7 +23,6 @@ const ConsentBanner = () => {
   };
 
   const initializeAnalytics = () => {
-    // Inject the Google Analytics script dynamically
     const script = document.createElement("script");
     script.src = `https://www.googletagmanager.com/gtag/js?id=G-Q27F9Z8SWY`;
     script.async = true;
@@ -36,12 +34,12 @@ const ConsentBanner = () => {
         window.dataLayer.push(arguments);
       }
       gtag("js", new Date());
-      // Ensure IP anonymization with the updated config
+
       gtag("config", "G-Q27F9Z8SWY", { anonymize_ip: true });
     };
   };
 
-  if (consentGiven) return null; // Hide the banner once consent is given
+  if (consentGiven) return null;
 
   return (
     <div className="consent-banner">
