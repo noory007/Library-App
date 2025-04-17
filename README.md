@@ -32,7 +32,7 @@ The <meta name="description" ... /> tag in your HTML head provides a concise sum
 
 ### 5.	Tracking
 
-- I have used Google Analytic for tracking and also the logs. When you add, edit, delete a book from the database, it shows the record in the terminal and also it is saved in the logs collection in the database. 
+- I have used Google Analytic for tracking and also the logs. When you add, edit, delete a book from the database, it shows the record in the terminal and also it is saved in the logs collection in the database.
 
 ### 6.	Security
 
