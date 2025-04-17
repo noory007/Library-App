@@ -14,10 +14,10 @@ npm install
 
 ### 2.	Backend
 
-cd Backend 
-npm install
-#### Create .env file in the Backend (I have sent you the link or credential in your direct message in slack).
-npm start 
+-cd Backend 
+-npm install
+- #### Create .env file in the Backend (I have sent you the link or credential in your direct message in slack).
+-npm start 
 
 ### 3.	Frontend
 
